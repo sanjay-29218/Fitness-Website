@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class='logo'src="./img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./AboutUs.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="contact-page">
+        <center><h2>Contact Us</h2></center>
+        <form action="#" class="contact-form">
+            <label for="name">FullName </label>
+            <input type="text" required placeholder="Enter your Full Name"  id="name">
+            <div>
+                <label for="">Gender:</label>
+                <label for="gender1">Male</label>
+            <input type="radio" id="gender1" name="gender">
+            <label for="gender2">Female</label>
+            <input type="radio" id="gender2" name="gender">
+            </div><br>
+            <label for="contact">Contact No</label>
+            <input type="text" placeholder="Enter your contact address"><br>
+            <label for="desc">Any Queries</label>
+            
+            <textarea name="" id="desc" cols="30" rows="5"></textarea><br>
+        </form>
+        <button class="form-btn">Submit</button>
+    </div>
+    <footer >
+      <img src="./img/logo.png" alt="">
+      <div class="footer1">
+        <span>OVERVIEW</span>
+        <span><a href="./index.html">Home</a></span>
+        <span><a href="./index.html">About Us</a></span>
+        <span><a href="./index.html">Contact Us</a></span>
+      </div>
+      <div class="footer2">
+        <span>COMMUNITY</span>
+        <span><a>lorem</a></span>
+        <span><a>ipsum Us</a></span>
+        <span><a>ipsum</a></span>
+      </div>
+      <div class="footer3">
+        <span>GET CONNECTED</span>
+        <span><a href="#">Facebook</a><i class="fab fa-facebook-f"></i></span>
+        <span><a href="#">Instagram</a><i class="fa-brands fa-instagram-square"></i></span>
+        <span><a href="#">LinkedIn</a><i class="fa-brands fa-linkedin"></i></span>
+      </div>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

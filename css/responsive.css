@@ -1,0 +1,29 @@
+@media (max-width:500px)
+{
+    .content-preview2{
+        display: flex;
+        flex-direction: column;
+       
+
+
+    }
+    .content-card{
+        width: fit-content;
+        height: fit-content;
+    }
+    .text{
+        display: inline;
+    }
+   
+    
+}
+@media(max-width:750px)
+{
+    form input[type='text']{
+        width: 150px;
+    }
+    textarea{
+        width: 150px;
+    }
+
+}
